@@ -1,0 +1,17 @@
+{
+  "name": "Devent",
+  "version": "1.0.1",
+  "description": "lib manage event (dispatchers and listeners)",
+  "main": "index.js",
+  "repository": "https://github.com/truongDam",
+  "author": "truongdam",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^3.4.10"
+    },
+  "scripts": {
+      "build": "uglifyjs ./src/*.js -o ./lib/devent.min.js"
+  }
+}
